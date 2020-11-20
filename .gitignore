@@ -16,6 +16,7 @@ roadapikey.txt
 kakaomapkey.txt
 openweatherkey.txt
 tmpkey.txt
+storeList.csv
 
 # Remove previous ipynb_checkpoints
 #   git rm -r .ipynb_checkpoints/
