@@ -21,7 +21,7 @@ tmpkey.txt
 storeList.csv
 stations.csv
 station_data
-
+소상공인시장진흥공단*
 # Remove previous ipynb_checkpoints
 #   git rm -r .ipynb_checkpoints/
 
