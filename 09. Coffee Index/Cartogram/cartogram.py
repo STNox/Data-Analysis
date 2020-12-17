@@ -6,7 +6,7 @@ import matplotlib.font_manager
 mpl.rc('font', family='Malgun Gothic')
 mpl.rc('axes', unicode_minus=False)
 
-draw_korea_raw = pd.read_excel('../../08. Population/data/draw_korea_raw.xlsx', encoding='euc-kr')
+draw_korea_raw = pd.read_excel('../data/draw_korea_raw.xlsx', encoding='euc-kr')
 draw_korea_raw_stacked = pd.DataFrame(draw_korea_raw.stack())
 draw_korea_raw_stacked.reset_index(inplace=True)
 draw_korea_raw_stacked.rename(columns={'level_0': 'y', 'level_1': 'x', 0:'ID'}, inplace=True)
